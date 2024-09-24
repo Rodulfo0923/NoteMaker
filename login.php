@@ -133,12 +133,12 @@ font-weight: 200;
             <input type="text" id="username" name="username" placeholder="Username" >
             <input type="password" id="password" name="password" placeholder="Password" >
             <?php
-        session_start();
-        if(isset($_SESSION['error_message'])) {
-            echo '<div style="color: red;">' . $_SESSION['error_message'] . '</div>';
-            unset($_SESSION['error_message']);
-        }
-        ?>
+        // session_start();
+        // if(isset($_SESSION['error_message'])) {
+        //     echo '<div style="color: red;">' . $_SESSION['error_message'] . '</div>';
+        //     unset($_SESSION['error_message']);
+        // }
+        // ?>
         
             <button type="submit" id="loginButton" class="btn" style="background:#00bfa6">Login</button>
 
